@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Cookies and Crumbs Home</title>
+    <link rel="stylesheet" href="/stylehome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Autour+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="navi">
+        <a href="index.html" class="btn">Home</a>
+      </div>
+      <div class="navi">
+        <a href="contactus.html" class="btn">Contact Us</a>
+      </div>
+      <div class="navi">
+        <a href="#" class="btn">Products+Services</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="large">
+        <h1>Welcome to Cookies and Crumbs Bakery!</h1>
+        <p>
+          Cookies and Crumbs is a small family-owned bakery located right here
+          in Minnesota. We offer all sorts of sweet treats from cookies to cakes
+          to croissants. Whatever you're craving, all our desserts are baked
+          fresh daily with real ingredients and love. Our baked goods are
+          perfect for any occasion, whether it's a work event, birthday party,
+          or a special treat just for you. Stop by and give us a visit today,
+          because you deserve to enjoy the little crumbs in life!
+        </p>
+      </div>
+      <div class="small">
+        <img
+          src="https://cdn.glitch.global/548c410a-fa67-4109-b98f-4cfe03baccb4/Cookies_and_Crumbs_Cropped-removebg-preview.png?v=1732306517855"
+          alt="Logo"
+        />
+        <ul>
+          <li>Cookies</li>
+          <li>Cakes</li>
+          <li>Croissants</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="bottom">
+      <div class="box">
+        <img
+          src="https://cdn.glitch.global/548c410a-fa67-4109-b98f-4cfe03baccb4/BOGObrown.png?v=1732636413286"
+          alt="BOGO Deal"
+        />
+      </div>
+      <div class="box">
+        <img
+          src="https://cdn.glitch.global/548c410a-fa67-4109-b98f-4cfe03baccb4/Cookie10%25brown.png?v=1732636458564"
+          alt="10% Discount"
+        />
+      </div>
+    </div>
+
+    <div id="specialoffers2" class="learnmore">
+      <div class="learn">
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="learn">
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <button
+        id="hidebutton"
+        onclick="hideAds()"
+        style="
+          background-color: #e3aa75;
+          height: 50px;
+          width: 150px;
+          color: black;
+          border: 5px solid #522a13;
+          border-radius: 20px;
+        "
+      >
+        Hide Offers
+      </button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var z = document.getElementById("specialoffers2");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        z.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
